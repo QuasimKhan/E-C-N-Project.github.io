@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    text-decoration: none;
+}
+
+
+.logo-strip{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.logo{
+    height: 70px;
+    width: 110px;
+}
+.logo-img{
+    height: 100%;
+    width: 100%;
+    background-image: url("/Images/logo\ \(png\).png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+.navBar{
+    height: 45px;
+    width: 100%;
+    background-color: aqua;
+}
+.nav-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container ul{
+    margin: 20px;
+}
+
+.content{
+    height: 600px;
+    background-color: antiquewhite;
+}
+.box-container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    height: 400px;
+    width: 300px;
+    background-size: 300px 340px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: 2px solid white;
+}
+.box-fbpage{
+    width: 340px;
+    height: 500px;
+    border: 2px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.img-name{
+    height: 60px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+
+/* Back to top  */
+.btp-button{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(213, 67, 67);
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
